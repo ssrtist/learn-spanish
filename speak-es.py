@@ -648,8 +648,8 @@ class TalkingGame:
             self.Sound_Welcome = generate_speech_sound("Bienvenido al juego de habla")
             self.Sound_Goodjob = generate_speech_sound("¡Buen trabajo! ¿Continuar?")
             self.Sound_PleaseSay = generate_speech_sound("Por favor, di: ")
-            self.Sound_NoGood = generate_speech_sound("¡No bueno! Dijiste: ")
-            self.Sound_Good = generate_speech_sound("¡Bien! Dijiste: ")
+            self.Sound_NoGood = generate_speech_sound("¡Muy mal! Dijiste: ")
+            self.Sound_Good = generate_speech_sound("¡Muy bien! Dijiste: ")
             self.Sound_NoHear = generate_speech_sound("No te escuché. ")
             self.Sound_Skipped = generate_speech_sound("¡Omitido!")
         elif DEFAULT_LANGUAGE == "zh-CN":
@@ -673,7 +673,7 @@ class TalkingGame:
             os.environ['SDL_VIDEO_CENTERED'] = '1'
             self.screen = pygame.display.set_mode(WINDOWED_RESOLUTION, pygame.NOFRAME)
             self.fullscreen = False
-        pygame.display.set_caption("Coso's Typing Game")
+        pygame.display.set_caption("Little Speech Game - ES")
 
     def midi_keydown(self):
         note = self.this_melody[self.this_index][0]
@@ -782,7 +782,7 @@ class TalkingGame:
 
             title_phrase_button.draw(self.screen, self.button_font) # Draw phrase button after dropdown
 
-            prompt_text = self.game_font_large.render("Little Speech Game", True, DARK_BLUE)
+            prompt_text = self.game_font_large.render("El juego de habla", True, DARK_BLUE)
             prompt_rect = pygame.Rect(20, 10, self.screen_width - 40, prompt_text.get_height() + 20)
             pygame.draw.rect(self.screen, LIGHT_YELLOW, prompt_rect.inflate(20, 10))
             self.screen.blit(prompt_text, (prompt_rect.width // 2 - prompt_text.get_width() // 2, prompt_rect.y + 10))
