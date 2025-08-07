@@ -1,0 +1,92 @@
+{
+    "word_list_mastered": {
+        "order": "random",
+        "items": [
+            "banana", "kiwi", "coffee", "cookie", "pizza", "pasta", "tomato", "potato", "ketchup", "school", "market", "kitchen", "mommy", "daddy", "teacher", "paper", "open", "happy", "sorry"
+        ]
+    },
+    "word_list_foods": {
+        "order": "random",
+        "items": [
+            {"word": "manzana", "translate": "apple"}, "banana", "orange", "grape", "watermelon", "strawberry", "pineapple", "kiwi", "mango", "blueberry",
+            "rice", "noodle", "bread", "egg", "milk", "water", "juice", "coffee", "tea", "soda", "chicken", "beef", "pork", 
+            "fish", "vegetable", "fruit", "snack", "candy", "cookie", "cake", "ice cream", "chocolate", "pizza", "cheeseburger", 
+            "fries", "hot dog", "sandwich", "salad", "soup", "pasta", "steak", "ribs", "pepperoni", "cheese", "tomato", 
+            "lettuce", "onion", "pepper", "salt", "sugar", "butter", "oil", "soy sauce", "ketchup", "hot sauce", "crispy chicken"
+        ]
+    },
+    "word_list_things": {
+        "order": "random",
+        "items": [
+            "car", "bus", "train", "bike", "airplane", "tree", "flower", "grass", "sky", "cloud", "sun", "moon", "star", "spoon", "fork", "knife", "plate", "bowl", "cup",
+            "glass", "napkin", "tissue", "toothbrush", "toothpaste", "soap", "towel", "comb", "brush", "scissors", "pen",
+            "pencil", "eraser", "book", "notebook", "paper", "bag", "box", "ball", "pan", "pot", "bottle", "ipad"
+        ]
+    },
+    "word_list_places": {
+        "order": "random",
+        "items": [
+            "school", "home", "park", "market", "backyard", "upstairs", "downstairs", "basement", "bathroom", "kitchen", "hotel", "elevator"
+        ]
+    },
+    "word_list_people": {
+        "order": "random",
+        "items": [
+            "daddy", "mommy", "brother", "sister", "teacher", "grandma", "grandpa", "uncle", "auntie", "doctor", "dentist", "nurse", "police", "cousin", "classmate", "neighbor", "mailman", "waiter", "waitress"
+        ]
+    },
+    "word_list_actions": {
+        "order": "random",
+        "items": [
+            "walk", "run", "jump", "swim", "dance", "sing", "draw", "color", "read", "write", "play", "watch", "listen", "eat", "drink", "sleep", "wake up", "go", "come", "sit", "stand", "open", "close", "push", "pull",
+            "clean", "wash", "cook", "cut", "buy", "pay", "help", "drive", "ride", "shower"
+        ]
+    },
+    "word_list_animals": {
+        "order": "random",
+        "items": [
+            "cat", "dog",
+            "horse", "cow", "sheep", "elephant", "lion", "tiger", "giraffe", "alligator", "rabbit", "turtle", "monkey",
+            "bird", "snake", "mouse", "shark"
+        ]
+    },
+    "word_list_feelings": {
+        "order": "random",
+        "items": [
+            "please", "sorry", "yes", "no", "good", "bad", "happy", "sad", "angry", "tired", "hungry", "thirsty", 
+            "hot", "cold", "big", "small", "long", "short", "tall", "fast", "slow", "itchy", "thirsty"
+        ]
+    },
+    "word_list_numbers": {
+        "order": "random",
+        "items": [
+            "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "30", "40", "50", "60", "70", "80", "90", "100"
+        ]
+    },
+    "word_list_time": {
+        "order": "random",
+        "items": [
+            "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "weekday", "weekend",
+            "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december",
+            "today", "tomorrow", "yesterday", "morning", "afternoon", "evening", "night", "week", "month", "year", 
+            "now", "later", "soon", "early", "late", "o'clock", "first", "second", "third", "then", "after", "before", "next", "last"
+        ]
+    },
+    "phrase_list": {
+        "order": "random",
+        "items": [
+            "sit nice", "sit straight", "stop and wait", "wait for car", "wait for light", "stop and look", "look and cross", 
+            "cross the road", "stand up", "sit down", "turn on", "turn off", "clean up", "put on", "take off", "time to get up",
+            "time to sleep", "wait for dinner", "eat dinner", "go skating", "play tennis", "play basketball", "ride bike", 
+            "go to car", "go to market", "go to park", "i need to pee", "i need to poop", "i'm hungry", "i'm sleepy", "see you later",
+            "see you tomorrow", "bye bye", "good morning", "good night", "thank you", "yes please", "no thanks", "i'm sorry", "bless you", 
+            "comb hair", "brush teeth"
+        ]
+    },
+    "word_list_test": {
+        "order": "random",
+        "items": [
+            "ride bike", "go to market", "go to park", "comb hair", "brush teeth"
+        ]
+    }
+}

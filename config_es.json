@@ -1,92 +1,86 @@
 {
-    "word_list_mastered": {
-        "order": "random",
-        "items": [
-            "banana", "kiwi", "café", "galleta", "pizza", "pasta", "tomate", "patata", "kétchup", "escuela", "mercado", "cocina", "mamá", "papá", "maestro", "papel", "abierto", "feliz", "lo siento"
-        ]
-    },
     "word_list_foods": {
         "order": "random",
         "items": [
-            "manzana", "banana", "naranja", "uva", "sandía", "fresa", "piña", "kiwi", "mango", "arándano",
-            "arroz", "fideo", "pan", "huevo", "leche", "agua", "jugo", "café", "té", "refresco", "pollo", "carne de res", "cerdo",
-            "pescado", "verdura", "fruta", "merienda", "dulce", "galleta", "pastel", "helado", "chocolate", "pizza", "hamburguesa con queso",
-            "papas fritas", "perrito caliente", "sándwich", "ensalada", "sopa", "pasta", "filete", "costillas", "pepperoni", "queso", "tomate",
-            "lechuga", "cebolla", "pimiento", "sal", "azúcar", "mantequilla", "aceite", "salsa de soja", "kétchup", "salsa picante", "pollo crujiente"
+            {"word": "manzana", "translate": "apple"}, {"word": "banana", "translate": "banana"}, {"word": "naranja", "translate": "orange"}, {"word": "uva", "translate": "grape"}, {"word": "sandía", "translate": "watermelon"}, {"word": "fresa", "translate": "strawberry"}, {"word": "piña", "translate": "pineapple"}, {"word": "kiwi", "translate": "kiwi"}, {"word": "mango", "translate": "mango"}, {"word": "arándano", "translate": "blueberry"},
+            {"word": "arroz", "translate": "rice"}, {"word": "fideo", "translate": "noodle"}, {"word": "pan", "translate": "bread"}, {"word": "huevo", "translate": "egg"}, {"word": "leche", "translate": "milk"}, {"word": "agua", "translate": "water"}, {"word": "jugo", "translate": "juice"}, {"word": "café", "translate": "coffee"}, {"word": "té", "translate": "tea"}, {"word": "refresco", "translate": "soda"}, {"word": "pollo", "translate": "chicken"}, {"word": "carne de res", "translate": "beef"}, {"word": "cerdo", "translate": "pork"},
+            {"word": "pescado", "translate": "fish"}, {"word": "verdura", "translate": "vegetable"}, {"word": "fruta", "translate": "fruit"}, {"word": "merienda", "translate": "snack"}, {"word": "dulce", "translate": "candy"}, {"word": "galleta", "translate": "cookie"}, {"word": "pastel", "translate": "cake"}, {"word": "helado", "translate": "ice cream"}, {"word": "chocolate", "translate": "chocolate"}, {"word": "pizza", "translate": "pizza"}, {"word": "hamburguesa con queso", "translate": "cheeseburger"},
+            {"word": "papas fritas", "translate": "fries"}, {"word": "perrito caliente", "translate": "hot dog"}, {"word": "sándwich", "translate": "sandwich"}, {"word": "ensalada", "translate": "salad"}, {"word": "sopa", "translate": "soup"}, {"word": "pasta", "translate": "pasta"}, {"word": "filete", "translate": "steak"}, {"word": "costillas", "translate": "ribs"}, {"word": "pepperoni", "translate": "pepperoni"}, {"word": "queso", "translate": "cheese"}, {"word": "tomate", "translate": "tomato"},
+            {"word": "lechuga", "translate": "lettuce"}, {"word": "cebolla", "translate": "onion"}, {"word": "pimiento", "translate": "pepper"}, {"word": "sal", "translate": "salt"}, {"word": "azúcar", "translate": "sugar"}, {"word": "mantequilla", "translate": "butter"}, {"word": "aceite", "translate": "oil"}, {"word": "salsa de soja", "translate": "soy sauce"}, {"word": "kétchup", "translate": "ketchup"}, {"word": "salsa picante", "translate": "hot sauce"}, {"word": "pollo crujiente", "translate": "crispy chicken"}
         ]
     },
     "word_list_things": {
         "order": "random",
         "items": [
-            "coche", "autobús", "tren", "bicicleta", "avión", "árbol", "flor", "hierba", "cielo", "nube", "sol", "luna", "estrella", "cuchara", "tenedor", "cuchillo", "plato", "cuenco", "taza",
-            "vaso", "servilleta", "pañuelo", "cepillo de dientes", "pasta de dientes", "jabón", "toalla", "peine", "cepillo", "tijeras", "bolígrafo",
-            "lápiz", "borrador", "libro", "cuaderno", "papel", "bolsa", "caja", "pelota", "sartén", "olla", "botella", "ipad"
+            {"word": "coche", "translate": "car"}, {"word": "autobús", "translate": "bus"}, {"word": "tren", "translate": "train"}, {"word": "bicicleta", "translate": "bike"}, {"word": "avión", "translate": "airplane"}, {"word": "árbol", "translate": "tree"}, {"word": "flor", "translate": "flower"}, {"word": "hierba", "translate": "grass"}, {"word": "cielo", "translate": "sky"}, {"word": "nube", "translate": "cloud"}, {"word": "sol", "translate": "sun"}, {"word": "luna", "translate": "moon"}, {"word": "estrella", "translate": "star"}, {"word": "cuchara", "translate": "spoon"}, {"word": "tenedor", "translate": "fork"}, {"word": "cuchillo", "translate": "knife"}, {"word": "plato", "translate": "plate"}, {"word": "cuenco", "translate": "bowl"}, {"word": "taza", "translate": "cup"},
+            {"word": "vaso", "translate": "glass"}, {"word": "servilleta", "translate": "napkin"}, {"word": "pañuelo", "translate": "tissue"}, {"word": "cepillo de dientes", "translate": "toothbrush"}, {"word": "pasta de dientes", "translate": "toothpaste"}, {"word": "jabón", "translate": "soap"}, {"word": "toalla", "translate": "towel"}, {"word": "peine", "translate": "comb"}, {"word": "cepillo", "translate": "brush"}, {"word": "tijeras", "translate": "scissors"}, {"word": "bolígrafo", "translate": "pen"},
+            {"word": "lápiz", "translate": "pencil"}, {"word": "borrador", "translate": "eraser"}, {"word": "libro", "translate": "book"}, {"word": "cuaderno", "translate": "notebook"}, {"word": "papel", "translate": "paper"}, {"word": "bolsa", "translate": "bag"}, {"word": "caja", "translate": "box"}, {"word": "pelota", "translate": "ball"}, {"word": "sartén", "translate": "pan"}, {"word": "olla", "translate": "pot"}, {"word": "botella", "translate": "bottle"}, {"word": "ipad", "translate": "ipad"}
         ]
     },
     "word_list_places": {
         "order": "random",
         "items": [
-            "escuela", "hogar", "parque", "mercado", "patio trasero", "arriba", "abajo", "sótano", "baño", "cocina", "hotel", "ascensor"
+            {"word": "escuela", "translate": "school"}, {"word": "hogar", "translate": "home"}, {"word": "parque", "translate": "park"}, {"word": "mercado", "translate": "market"}, {"word": "patio trasero", "translate": "backyard"}, {"word": "arriba", "translate": "upstairs"}, {"word": "abajo", "translate": "downstairs"}, {"word": "sótano", "translate": "basement"}, {"word": "baño", "translate": "bathroom"}, {"word": "cocina", "translate": "kitchen"}, {"word": "hotel", "translate": "hotel"}, {"word": "ascensor", "translate": "elevator"}
         ]
     },
     "word_list_people": {
         "order": "random",
         "items": [
-            "papá", "mamá", "hermano", "hermana", "maestro", "abuela", "abuelo", "tío", "tía", "doctor", "dentista", "enfermera", "policía", "primo", "compañero de clase", "vecino", "cartero", "camarero", "camarera"
+            {"word": "papá", "translate": "daddy"}, {"word": "mamá", "translate": "mommy"}, {"word": "hermano", "translate": "brother"}, {"word": "hermana", "translate": "sister"}, {"word": "maestro", "translate": "teacher"}, {"word": "abuela", "translate": "grandma"}, {"word": "abuelo", "translate": "grandpa"}, {"word": "tío", "translate": "uncle"}, {"word": "tía", "translate": "auntie"}, {"word": "doctor", "translate": "doctor"}, {"word": "dentista", "translate": "dentist"}, {"word": "enfermera", "translate": "nurse"}, {"word": "policía", "translate": "police"}, {"word": "primo", "translate": "cousin"}, {"word": "compañero de clase", "translate": "classmate"}, {"word": "vecino", "translate": "neighbor"}, {"word": "cartero", "translate": "mailman"}, {"word": "camarero", "translate": "waiter"}, {"word": "camarera", "translate": "waitress"}
         ]
     },
     "word_list_actions": {
         "order": "random",
         "items": [
-            "caminar", "correr", "saltar", "nadar", "bailar", "cantar", "dibujar", "colorear", "leer", "escribir", "jugar", "mirar", "escuchar", "comer", "beber", "dormir", "despertarse", "ir", "venir", "sentarse", "pararse", "abrir", "cerrar", "empujar", "tirar",
-            "limpiar", "lavar", "cocinar", "cortar", "comprar", "pagar", "ayudar", "conducir", "montar", "ducharse"
+            {"word": "caminar", "translate": "walk"}, {"word": "correr", "translate": "run"}, {"word": "saltar", "translate": "jump"}, {"word": "nadar", "translate": "swim"}, {"word": "bailar", "translate": "dance"}, {"word": "cantar", "translate": "sing"}, {"word": "dibujar", "translate": "draw"}, {"word": "colorear", "translate": "color"}, {"word": "leer", "translate": "read"}, {"word": "escribir", "translate": "write"}, {"word": "jugar", "translate": "play"}, {"word": "mirar", "translate": "watch"}, {"word": "escuchar", "translate": "listen"}, {"word": "comer", "translate": "eat"}, {"word": "beber", "translate": "drink"}, {"word": "dormir", "translate": "sleep"}, {"word": "despertarse", "translate": "wake up"}, {"word": "ir", "translate": "go"}, {"word": "venir", "translate": "come"}, {"word": "sentarse", "translate": "sit"}, {"word": "pararse", "translate": "stand"}, {"word": "abrir", "translate": "open"}, {"word": "cerrar", "translate": "close"}, {"word": "empujar", "translate": "push"}, {"word": "tirar", "translate": "pull"},
+            {"word": "limpiar", "translate": "clean"}, {"word": "lavar", "translate": "wash"}, {"word": "cocinar", "translate": "cook"}, {"word": "cortar", "translate": "cut"}, {"word": "comprar", "translate": "buy"}, {"word": "pagar", "translate": "pay"}, {"word": "ayudar", "translate": "help"}, {"word": "conducir", "translate": "drive"}, {"word": "montar", "translate": "ride"}, {"word": "ducharse", "translate": "shower"}
         ]
     },
     "word_list_animals": {
         "order": "random",
         "items": [
-            "gato", "perro",
-            "caballo", "vaca", "oveja", "elefante", "león", "tigre", "jirafa", "caimán", "conejo", "tortuga", "mono",
-            "pájaro", "serpiente", "ratón", "tiburón"
+            {"word": "gato", "translate": "cat"}, {"word": "perro", "translate": "dog"},
+            {"word": "caballo", "translate": "horse"}, {"word": "vaca", "translate": "cow"}, {"word": "oveja", "translate": "sheep"}, {"word": "elefante", "translate": "elephant"}, {"word": "león", "translate": "lion"}, {"word": "tigre", "translate": "tiger"}, {"word": "jirafa", "translate": "giraffe"}, {"word": "caimán", "translate": "alligator"}, {"word": "conejo", "translate": "rabbit"}, {"word": "tortuga", "translate": "turtle"}, {"word": "mono", "translate": "monkey"},
+            {"word": "pájaro", "translate": "bird"}, {"word": "serpiente", "translate": "snake"}, {"word": "ratón", "translate": "mouse"}, {"word": "tiburón", "translate": "shark"}
         ]
     },
     "word_list_feelings": {
         "order": "random",
         "items": [
-            "por favor", "lo siento", "sí", "no", "bueno", "malo", "feliz", "triste", "enojado", "cansado", "hambriento", "sediento",
-            "caliente", "frío", "grande", "pequeño", "largo", "corto", "alto", "rápido", "lento", "picazón", "sediento"
+            {"word": "por favor", "translate": "please"}, {"word": "lo siento", "translate": "sorry"}, {"word": "sí", "translate": "yes"}, {"word": "no", "translate": "no"}, {"word": "bueno", "translate": "good"}, {"word": "malo", "translate": "bad"}, {"word": "feliz", "translate": "happy"}, {"word": "triste", "translate": "sad"}, {"word": "enojado", "translate": "angry"}, {"word": "cansado", "translate": "tired"}, {"word": "hambriento", "translate": "hungry"}, {"word": "sediento", "translate": "thirsty"},
+            {"word": "caliente", "translate": "hot"}, {"word": "frío", "translate": "cold"}, {"word": "grande", "translate": "big"}, {"word": "pequeño", "translate": "small"}, {"word": "largo", "translate": "long"}, {"word": "corto", "translate": "short"}, {"word": "alto", "translate": "tall"}, {"word": "rápido", "translate": "fast"}, {"word": "lento", "translate": "slow"}, {"word": "picazón", "translate": "itchy"}, {"word": "sediento", "translate": "thirsty"}
         ]
     },
     "word_list_numbers": {
         "order": "random",
         "items": [
-            "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "30", "40", "50", "60", "70", "80", "90", "100"
+            {"word": "1", "translate": "1"}, {"word": "2", "translate": "2"}, {"word": "3", "translate": "3"}, {"word": "4", "translate": "4"}, {"word": "5", "translate": "5"}, {"word": "6", "translate": "6"}, {"word": "7", "translate": "7"}, {"word": "8", "translate": "8"}, {"word": "9", "translate": "9"}, {"word": "10", "translate": "10"}, {"word": "11", "translate": "11"}, {"word": "12", "translate": "12"}, {"word": "13", "translate": "13"}, {"word": "14", "translate": "14"}, {"word": "15", "translate": "15"}, {"word": "16", "translate": "16"}, {"word": "17", "translate": "17"}, {"word": "18", "translate": "18"}, {"word": "19", "translate": "19"}, {"word": "20", "translate": "20"}, {"word": "30", "translate": "30"}, {"word": "40", "translate": "40"}, {"word": "50", "translate": "50"}, {"word": "60", "translate": "60"}, {"word": "70", "translate": "70"}, {"word": "80", "translate": "80"}, {"word": "90", "translate": "90"}, {"word": "100", "translate": "100"}
         ]
     },
     "word_list_time": {
         "order": "random",
         "items": [
-            "lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo", "día de la semana", "fin de semana",
-            "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
-            "hoy", "mañana", "ayer", "mañana", "tarde", "noche", "noche", "semana", "mes", "año",
-            "ahora", "más tarde", "pronto", "temprano", "tarde", "en punto", "primero", "segundo", "tercero", "luego", "después", "antes", "siguiente", "último"
+            {"word": "lunes", "translate": "monday"}, {"word": "martes", "translate": "tuesday"}, {"word": "miércoles", "translate": "wednesday"}, {"word": "jueves", "translate": "thursday"}, {"word": "viernes", "translate": "friday"}, {"word": "sábado", "translate": "saturday"}, {"word": "domingo", "translate": "sunday"}, {"word": "día de la semana", "translate": "weekday"}, {"word": "fin de semana", "translate": "weekend"},
+            {"word": "enero", "translate": "january"}, {"word": "febrero", "translate": "february"}, {"word": "marzo", "translate": "march"}, {"word": "abril", "translate": "april"}, {"word": "mayo", "translate": "may"}, {"word": "junio", "translate": "june"}, {"word": "julio", "translate": "july"}, {"word": "agosto", "translate": "august"}, {"word": "septiembre", "translate": "september"}, {"word": "octubre", "translate": "october"}, {"word": "noviembre", "translate": "november"}, {"word": "diciembre", "translate": "december"},
+            {"word": "hoy", "translate": "today"}, {"word": "mañana", "translate": "tomorrow"}, {"word": "ayer", "translate": "yesterday"}, {"word": "mañana", "translate": "morning"}, {"word": "tarde", "translate": "afternoon"}, {"word": "noche", "translate": "evening"}, {"word": "noche", "translate": "night"}, {"word": "semana", "translate": "week"}, {"word": "mes", "translate": "month"}, {"word": "año", "translate": "year"},
+            {"word": "ahora", "translate": "now"}, {"word": "más tarde", "translate": "later"}, {"word": "pronto", "translate": "soon"}, {"word": "temprano", "translate": "early"}, {"word": "tarde", "translate": "late"}, {"word": "en punto", "translate": "o'clock"}, {"word": "primero", "translate": "first"}, {"word": "segundo", "translate": "second"}, {"word": "tercero", "translate": "third"}, {"word": "luego", "translate": "then"}, {"word": "después", "translate": "after"}, {"word": "antes", "translate": "before"}, {"word": "siguiente", "translate": "next"}, {"word": "último", "translate": "last"}
         ]
     },
     "phrase_list": {
         "order": "random",
         "items": [
-            "siéntate bien", "siéntate derecho", "detente y espera", "espera el coche", "espera la luz", "detente y mira", "mira y cruza",
-            "cruza la calle", "levántate", "siéntate", "enciende", "apaga", "limpia", "ponte", "quítate", "es hora de levantarse",
-            "es hora de dormir", "espera la cena", "cena", "ir a patinar", "jugar al tenis", "jugar al baloncesto", "montar en bicicleta",
-            "ir al coche", "ir al mercado", "ir al parque", "necesito hacer pis", "necesito hacer caca", "tengo hambre", "tengo sueño", "nos vemos luego",
-            "nos vemos mañana", "adiós", "buenos días", "buenas noches", "gracias", "sí por favor", "no gracias", "lo siento", "salud",
-            "peinar el pelo", "cepillarse los dientes"
+            {"word": "siéntate bien", "translate": "sit nice"}, {"word": "siéntate derecho", "translate": "sit straight"}, {"word": "detente y espera", "translate": "stop and wait"}, {"word": "espera el coche", "translate": "wait for car"}, {"word": "espera la luz", "translate": "wait for light"}, {"word": "detente y mira", "translate": "stop and look"}, {"word": "mira y cruza", "translate": "look and cross"},
+            {"word": "cruza la calle", "translate": "cross the road"}, {"word": "levántate", "translate": "stand up"}, {"word": "siéntate", "translate": "sit down"}, {"word": "enciende", "translate": "turn on"}, {"word": "apaga", "translate": "turn off"}, {"word": "limpia", "translate": "clean up"}, {"word": "ponte", "translate": "put on"}, {"word": "quítate", "translate": "take off"}, {"word": "es hora de levantarse", "translate": "time to get up"},
+            {"word": "es hora de dormir", "translate": "time to sleep"}, {"word": "espera la cena", "translate": "wait for dinner"}, {"word": "cena", "translate": "eat dinner"}, {"word": "ir a patinar", "translate": "go skating"}, {"word": "jugar al tenis", "translate": "play tennis"}, {"word": "jugar al baloncesto", "translate": "play basketball"}, {"word": "montar en bicicleta", "translate": "ride bike"},
+            {"word": "ir al coche", "translate": "go to car"}, {"word": "ir al mercado", "translate": "go to market"}, {"word": "ir al parque", "translate": "go to park"}, {"word": "necesito hacer pis", "translate": "i need to pee"}, {"word": "necesito hacer caca", "translate": "i need to poop"}, {"word": "tengo hambre", "translate": "i'm hungry"}, {"word": "tengo sueño", "translate": "i'm sleepy"}, {"word": "nos vemos luego", "translate": "see you later"},
+            {"word": "nos vemos mañana", "translate": "see you tomorrow"}, {"word": "adiós", "translate": "bye bye"}, {"word": "buenos días", "translate": "good morning"}, {"word": "buenas noches", "translate": "good night"}, {"word": "gracias", "translate": "thank you"}, {"word": "sí por favor", "translate": "yes please"}, {"word": "no gracias", "translate": "no thanks"}, {"word": "lo siento", "translate": "i'm sorry"}, {"word": "salud", "translate": "bless you"},
+            {"word": "peinar el pelo", "translate": "comb hair"}, {"word": "cepillarse los dientes", "translate": "brush teeth"}
         ]
     },
     "word_list_test": {
         "order": "random",
         "items": [
-            "montar en bicicleta", "ir al mercado", "ir al parque", "peinar el pelo", "cepillarse los dientes"
+            {"word": "montar en bicicleta", "translate": "ride bike"}, {"word": "ir al mercado", "translate": "go to market"}, {"word": "ir al parque", "translate": "go to park"}, {"word": "peinar el pelo", "translate": "comb hair"}, {"word": "cepillarse los dientes", "translate": "brush teeth"}
         ]
     }
 }
