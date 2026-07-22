@@ -65,13 +65,13 @@ ZCR_NOISE_THRESHOLD = 0.2  # Zero-crossing rate threshold for noise detection
 ZCR_SPEECH_THRESHOLD = 0.15  # Zero-crossing rate threshold for speech detection
 
 def calibrate_threshold(duration=3):
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🎙️ Calibrating background noise level...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Calibrating background noise level...")
     calibration_audio = sd.rec(int(duration * SAMPLE_RATE), samplerate=SAMPLE_RATE, channels=1, dtype='int16')
     sd.wait()
     ambient_noise_level = np.abs(calibration_audio).mean()
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔊 Ambient noise level: {ambient_noise_level}")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Ambient noise level: {ambient_noise_level}")
     target_threshold = max(MIN_SILENCE_THRESHOLD, -(-ambient_noise_level * 1.5 // 100) * 100) # Round up to nearest 100 for better thresholding
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🔊 Calibration complete. Using threshold: {target_threshold}")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Calibration complete. Using threshold: {target_threshold}")
     return target_threshold
 
 def zero_crossing_rate(audio_chunk):
@@ -299,7 +299,6 @@ def load_config():
         with open(CONFIG_FILE_PATH, "r", encoding="utf-8") as config_file:
             config = json.load(config_file)
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Configuration loaded from {CONFIG_FILE_PATH}.")
-            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Configuration content: {config}")
     except Exception as e:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Error loading configuration. Using default lists. {e}")
         config = {}
